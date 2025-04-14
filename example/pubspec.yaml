@@ -1,0 +1,32 @@
+name: offline_transcription_example
+description: Demonstrates how to use the offline_transcription plugin.
+version: 1.0.0+1
+
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  offline_transcription:
+    path: ../
+  file_picker: ^5.2.10
+  path_provider: ^2.0.15
+  permission_handler: ^10.2.0
+  cupertino_icons: ^1.0.2
+  audio_waveforms: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dictionaries/en_us/cmudict.dict
+    - assets/dictionaries/en_uk/cmudict.dict
+    - assets/dictionaries/pt_PT/ptdict.dict
