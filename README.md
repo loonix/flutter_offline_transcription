@@ -2,6 +2,9 @@
 
 A Flutter plugin for offline audio transcription on Android and iOS with enhanced features for rhyme detection, timing analysis, and slang detection.
 
+Join my discord channel: https://discord.gg/8pem5GAe
+
+
 ## Features
 
 [x] **Offline Audio Transcription**: Transcribe audio files locally on the device without sending data to the cloud
