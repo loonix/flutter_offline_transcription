@@ -289,7 +289,7 @@ class OfflineTranscriptionPlugin: FlutterPlugin, MethodCallHandler {
     Log.d(TAG, "File size: ${audioFile.length()} bytes")
     
     // Check file extension
-    val fileExtension = audioFilePath.substringAfterLast('.', "").toLowerCase()
+    val fileExtension = audioFilePath.substringAfterLast('.', "").lowercase()
     Log.d(TAG, "File extension: $fileExtension")
     
     // For now, Vosk works best with WAV files at 16kHz sample rate
